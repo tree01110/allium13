@@ -1,0 +1,12 @@
+name = "weavers_cosmetics-neo-1.21.1_v1.1"
+filename = "weavers_cosmetics-neo-1.21.1_v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PrA420KR/versions/NxfsRSr9/weavers_cosmetics-neo-1.21.1_v1.1.jar"
+hash-format = "sha512"
+hash = "766c5e4225741308ce195d70a307c9dd8174bc0215e7095662460fef616a1844df042f2c2a7fdade32bfb1868c41dce75823e237dad4921d4caab6aceb40469c"
+
+[update.modrinth]
+mod-id = "PrA420KR"
+version = "NxfsRSr9"

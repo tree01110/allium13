@@ -1,0 +1,12 @@
+name = "create-integrated-farming-1.4.2"
+filename = "create-integrated-farming-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9k1pAsfR/versions/90PTskVE/create-integrated-farming-1.4.2.jar"
+hash-format = "sha512"
+hash = "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8"
+
+[update.modrinth]
+mod-id = "9k1pAsfR"
+version = "90PTskVE"

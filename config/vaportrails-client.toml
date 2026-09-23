@@ -1,0 +1,169 @@
+[general]
+	#Master multiplier applied to every effect's particle output.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	masterIntensity = 1.0
+	#Global cap on live Vapor Trails particles.
+	# Default: 2000
+	# Range: 100 ~ 8000
+	maxParticles = 2000
+	#Cap on particles spawned per ship per tick.
+	# Default: 90
+	# Range: 5 ~ 400
+	perShipSpawnsPerTick = 90
+	#Share of a ship's per-tick particle budget reserved for propeller effects,
+	#so many-propeller ships don't starve wingtip/wake effects.
+	# Default: 0.6
+	# Range: 0.1 ~ 0.9
+	propellerBudgetShare = 0.6
+	#Ships farther than this from the camera spawn no effects (blocks).
+	# Default: 192
+	# Range: 32 ~ 512
+	effectRange = 192
+	#Spawn end-rod marker particles at tracked ship centres and propeller
+	#hubs/tips. Useful to verify Sable tracking and propeller detection.
+	debugMarkers = false
+	#Automatically thin out effects when the frame rate drops below
+	#targetFps, and restore them once there is headroom again.
+	adaptiveQuality = true
+	#Frame rate the adaptive governor tries to protect.
+	# Default: 45
+	# Range: 15 ~ 240
+	targetFps = 45
+	#Simulate a shared airflow field so propeller slipstreams push
+	#nearby vapor, dust and foam around instead of every effect
+	#drifting independently. Turn off for the old static behaviour.
+	airflowSimulation = true
+	#Scan each ship's blocks to find its real silhouette, so wingtip
+	#trails come off the actual wingtips and hover dust only rises
+	#from ground genuinely under the hull. Turning this off falls back
+	#to the bounding box, which is cheaper but boxy on odd airframes.
+	hullShapeScan = true
+
+[wingtipTrails]
+	#White condensation streaks from a fast ship's outer edges.
+	enabled = true
+	#Minimum ship speed for wingtip trails (m/s = blocks per second).
+	# Default: 20.0
+	# Range: 1.0 ~ 100.0
+	minSpeed = 20.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[propeller]
+	#Blade-tip vapor ring on fast-spinning propellers.
+	bladeTipVapor = false
+	#Minimum rotation speed (Create RPM) for blade-tip vapor.
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	bladeTipMinRpm = 64.0
+	#Cone of faint air-swirl particles streaming behind the disc.
+	propWash = false
+	#Minimum rotation speed (Create RPM) for prop wash.
+	# Default: 32.0
+	# Range: 1.0 ~ 256.0
+	propWashMinRpm = 32.0
+	#Flip the prop wash direction. Use this if the air stream
+	#visibly blows out of the front of your propellers.
+	invertPropWash = false
+	#Dust ring / water spray under a running propeller near the surface.
+	groundDisturbance = false
+	#How far below a propeller disc the ground/water is disturbed (blocks).
+	# Default: 5.0
+	# Range: 1.0 ~ 12.0
+	groundDisturbanceRange = 5.0
+	#Dense smoke/vapor burst when a propeller starts or stops.
+	startupPuff = false
+	#Assumed blade count for the tip-vapor flicker pattern.
+	#(Blade count isn't exposed by Aeronautics, so the pass timing uses this.)
+	# Default: 3
+	# Range: 1 ~ 8
+	assumedBladeCount = 3
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[engineSmoke]
+	#Light grey smoke from running engine blocks; denser on startup.
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[hoverDust]
+	#Ground dust/debris kicked up under a low-flying or hovering ship.
+	enabled = true
+	#Maximum height above ground for hover dust (blocks).
+	# Default: 4.0
+	# Range: 1.0 ~ 10.0
+	maxHeight = 4.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[waterWake]
+	#V-shaped foam trail behind a hull moving through water.
+	enabled = true
+	#Minimum ship speed for a wake (m/s).
+	# Default: 2.0
+	# Range: 0.5 ~ 40.0
+	minSpeed = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[cloudPunch]
+	#Mist burst ring when a ship punches through the cloud layer at speed.
+	enabled = true
+	#Minimum vertical speed to trigger a cloud punch (m/s).
+	# Default: 5.0
+	# Range: 0.5 ~ 60.0
+	minVerticalSpeed = 5.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[assembly]
+	#A burst of displaced air and ground dust when a structure tears
+	#loose and becomes a ship, and a heavier settling plume when one is
+	#taken apart. One-shot: nothing here repeats during normal flight.
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+	#How close you must be for an assembly to register (blocks).
+	#Ships appearing beyond this are streaming into view rather than
+	#being built, and would be too far away to see anyway.
+	# Default: 64
+	# Range: 8 ~ 256
+	triggerRange = 64
+
+[wakeTurbulence]
+	#Fast ships shed counter-rotating vortices from their wingtips that
+	#linger in the air long after the visible trail has faded. Flying
+	#through one - yours or someone else's - tears your vapor apart.
+	enabled = true
+	#How long shed turbulence lingers, in seconds.
+	# Default: 20.0
+	# Range: 3.0 ~ 60.0
+	lifetimeSeconds = 20.0
+	#Multiplier on how violently wakes throw things around.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	strength = 1.0
+	#Draw disturbed air as ragged vapor when a ship flies into an
+	#existing wake. Turning this off leaves wakes invisible but still
+	#physically active.
+	reveal = true
+
+[shockCone]
+	#Condensation cone that forms around the hull at very high speed.
+	enabled = true
+	#Speed at which the shock cone starts to form (m/s).
+	# Default: 40.0
+	# Range: 10.0 ~ 200.0
+	minSpeed = 100.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0

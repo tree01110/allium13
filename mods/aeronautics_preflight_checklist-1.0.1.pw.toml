@@ -1,0 +1,12 @@
+name = "aeronautics_preflight_checklist-1.0.1"
+filename = "aeronautics_preflight_checklist-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l2LYH0FN/versions/wtdlxJmx/aeronautics_preflight_checklist-1.0.1.jar"
+hash-format = "sha512"
+hash = "4a20fbaf76f9c6c99a51674205c84f0e2f3db7c74c93f43893c28900aa2bdb118fbc53d17944ca118b88273847e9ec9ef7e81242a57fa44736d96ac7958cac6d"
+
+[update.modrinth]
+mod-id = "l2LYH0FN"
+version = "wtdlxJmx"

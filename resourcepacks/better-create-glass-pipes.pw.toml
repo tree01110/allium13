@@ -1,0 +1,12 @@
+name = "Better Create Glass Pipes"
+filename = "Better Create Glass Pipes.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZI5HBhxg/versions/tCazMbsG/Better%20Create%20Glass%20Pipes.zip"
+hash-format = "sha512"
+hash = "11e767a57ae814f46367fc4e6fa7e61dc21573a7a3b5967d7c6ff18504ac287d72966931ec747974d6526f5d0822481909b22206f60db909721c26f211d61721"
+
+[update.modrinth]
+mod-id = "ZI5HBhxg"
+version = "tCazMbsG"

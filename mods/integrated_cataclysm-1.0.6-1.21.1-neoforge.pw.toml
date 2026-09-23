@@ -1,0 +1,12 @@
+name = "integrated_cataclysm-1.0.6+1.21.1-neoforge"
+filename = "integrated_cataclysm-1.0.6+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ONbfwGTw/versions/rpOm77o6/integrated_cataclysm-1.0.6%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "010a5b17f3c1b315162e8e323892b279fab773b3eb6ad2b070d142dc4989043051eeedfee43d483698931b0b292927ed5d9b381bc4eba62c53ebd1bfbb10e7fc"
+
+[update.modrinth]
+mod-id = "ONbfwGTw"
+version = "rpOm77o6"

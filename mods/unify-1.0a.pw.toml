@@ -1,0 +1,12 @@
+name = "unify-1.0a"
+filename = "unify-1.0a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/edns7lHB/versions/t3AXHtxQ/unify-1.0a.jar"
+hash-format = "sha512"
+hash = "16d3ee261ce3433234d335c6946ef29e94eb7998e6f671281d2c1427b29b036f5ef0bb18098017ea90a772f6919ee1f8930832e0e6473ea97758915f6d150891"
+
+[update.modrinth]
+mod-id = "edns7lHB"
+version = "t3AXHtxQ"

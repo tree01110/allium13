@@ -1,0 +1,12 @@
+name = "ocean_giants-1.0.0"
+filename = "ocean_giants-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vV6x1SRp/versions/3yUiyicj/ocean_giants-1.0.0.jar"
+hash-format = "sha512"
+hash = "eda6bd6e7b9cdf1bc570e026bb61d214065132527b036878df0abb55330ca88feddab268ae4f933cee075136659936877d7369d3c4bafc340199d5ea999b02a2"
+
+[update.modrinth]
+mod-id = "vV6x1SRp"
+version = "3yUiyicj"

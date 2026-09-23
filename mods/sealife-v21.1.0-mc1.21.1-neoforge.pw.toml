@@ -1,0 +1,12 @@
+name = "SeaLife-v21.1.0-mc1.21.1-NeoForge"
+filename = "SeaLife-v21.1.0-mc1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2RxBOoXP/versions/dSNJ1iNb/SeaLife-v21.1.0-mc1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "2fde34f27f57f5938c8de408da9ff2b550d2c914dd3b0e50cedc33a71cdcd31df5204a63c90c8eb7acda39c6bf76414b0ef22b4a02a945861e738522069e208d"
+
+[update.modrinth]
+mod-id = "2RxBOoXP"
+version = "dSNJ1iNb"

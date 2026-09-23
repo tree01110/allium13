@@ -1,0 +1,58 @@
+#Spawn particles with the animations.
+particles = true
+#Play the sounds that accompany the animations.
+sounds = true
+
+#Assembly: a structure in the world becomes a physics object (physics on).
+[assembly]
+	#Play an animation.
+	enabled = true
+	#The look of the animation.
+	#DIAGRAM - the structure is sketched and redrawn like a page of the Contraption Diagram, with its forces.
+	#SCANNER - a laser sheet sweeps up or down the structure.
+	#Allowed Values: DIAGRAM, SCANNER
+	style = "DIAGRAM"
+
+#Disassembly: a ship lines up and turns back into blocks (physics off).
+#The style also plays while the ship lines up.
+[disassembly]
+	#Play an animation.
+	enabled = true
+	#The look of the animation.
+	#DIAGRAM - the structure is sketched and redrawn like a page of the Contraption Diagram, with its forces.
+	#SCANNER - a laser sheet sweeps up or down the structure.
+	#Allowed Values: DIAGRAM, SCANNER
+	style = "DIAGRAM"
+
+#Settings of the DIAGRAM style.
+[diagram]
+	#How strongly the structure glows. 0 hides the glow but keeps particles and sounds.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	brightness = 1.0
+	#Playback speed of the animations.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	speed = 0.25
+	#Draw the force arrows for propulsion, lift, balloon lift and levitation.
+	force_arrows = true
+	#Draw the dimension lines and the mass of the structure.
+	measurements = true
+	#Turn the rotation gizmo of the diagram beneath the ship while it lines up for disassembly.
+	rotation_gizmo = true
+
+#Settings of the SCANNER style.
+[scanner]
+	#How strongly the structure glows. 0 hides the glow but keeps particles and sounds.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	brightness = 1.0
+	#Playback speed of the animations.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	speed = 1.0
+	#Colour of the laser sheet.
+	#Allowed Values: CYAN, GREEN, GOLD, MAGENTA, RED, WHITE
+	laser_color = "CYAN"
+	#Draw the halo sticking out of the hull where the sheet cuts it.
+	halo = true

@@ -1,0 +1,12 @@
+name = "worldjs-1.21.1-1.0.1"
+filename = "worldjs-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3Y7FeCuI/versions/HpEG57A0/worldjs-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "0dccd99bdcbdd8a4232c7f2fbe4e2532ccb6b6681028c25ae2b8e4bd4c5618b9f3cab4917ba9d299fd6c6a6f0dd7a817372d9667caab766f8a17abc50ee04cbd"
+
+[update.modrinth]
+mod-id = "3Y7FeCuI"
+version = "HpEG57A0"

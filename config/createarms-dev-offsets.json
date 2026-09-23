@@ -1,0 +1,62 @@
+{
+  "SniperPodBlockEntity": {
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "offsetZ": 0.0,
+    "pivotX": 0.0,
+    "pivotY": 0.0,
+    "pivotZ": 0.0,
+    "rotateYaw": 0.0,
+    "rotatePitch": 0.0,
+    "rotateRoll": 0.0,
+    "scale": 1.0
+  },
+  "JassmBlockEntity": {
+    "offsetX": 0.475,
+    "offsetY": 0.8,
+    "offsetZ": 2.2,
+    "pivotX": -0.475,
+    "pivotY": -0.8,
+    "pivotZ": -2.2,
+    "rotateYaw": -180.0,
+    "rotatePitch": 0.0,
+    "rotateRoll": 0.0,
+    "scale": 1.0
+  },
+  "SniperPod2BlockEntity": {
+    "offsetX": -0.1875,
+    "offsetY": -0.0575,
+    "offsetZ": 0.01875,
+    "pivotX": -0.4,
+    "pivotY": 0.35,
+    "pivotZ": 0.625,
+    "rotateYaw": 0.0,
+    "rotatePitch": 0.0,
+    "rotateRoll": 0.0,
+    "scale": 1.45
+  },
+  "KinzhalBlockEntity": {
+    "offsetX": 0.5,
+    "offsetY": -0.625,
+    "offsetZ": 3.225,
+    "pivotX": -0.5,
+    "pivotY": 1.2,
+    "pivotZ": -3.225,
+    "rotateYaw": 0.0,
+    "rotatePitch": 0.0,
+    "rotateRoll": 0.0,
+    "scale": 1.0
+  },
+  "ChinGunBlockEntity": {
+    "offsetX": 0.0,
+    "offsetY": -0.95,
+    "offsetZ": -0.5625,
+    "pivotX": 0.0,
+    "pivotY": 0.575,
+    "pivotZ": 0.4,
+    "rotateYaw": 0.0,
+    "rotatePitch": 0.0,
+    "rotateRoll": 0.0,
+    "scale": 1.5
+  }
+}

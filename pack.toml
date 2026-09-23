@@ -1,0 +1,14 @@
+name = "Allium Season 13"
+author = "Allium"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+description = "Allium Season 13 - Minecraft 1.21.1 NeoForge"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f315afc00b815e6555c3f1a266e622dc758424f0d2e4d2b560c0474d996bb1ab"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

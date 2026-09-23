@@ -1,0 +1,12 @@
+name = "alloyed-3.0.11+1.21.1-neoforge"
+filename = "alloyed-3.0.11+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KUInlTFo/versions/BTj8TkEP/alloyed-3.0.11%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "0cf5f71b782fa5456fe4f10de83ba58e4495b42ded1602e21ae0ff76578af300241643f175716f7c12c1950e959281b626cb48d6ad5054ae7907717179b0dff0"
+
+[update.modrinth]
+mod-id = "KUInlTFo"
+version = "BTj8TkEP"

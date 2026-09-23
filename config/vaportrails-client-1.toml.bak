@@ -1,0 +1,109 @@
+[general]
+	#Master multiplier applied to every effect's particle output.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	masterIntensity = 1.0
+	#Global cap on live Vapor Trails particles.
+	# Default: 2000
+	# Range: 100 ~ 8000
+	maxParticles = 2000
+	#Cap on particles spawned per ship per tick.
+	# Default: 90
+	# Range: 5 ~ 400
+	perShipSpawnsPerTick = 90
+	#Share of a ship's per-tick particle budget reserved for propeller effects,
+	#so many-propeller ships don't starve wingtip/wake effects.
+	# Default: 0.6
+	# Range: 0.1 ~ 0.9
+	propellerBudgetShare = 0.6
+	#Ships farther than this from the camera spawn no effects (blocks).
+	# Default: 192
+	# Range: 32 ~ 512
+	effectRange = 192
+	#Spawn end-rod marker particles at tracked ship centres and propeller
+	#hubs/tips. Useful to verify Sable tracking and propeller detection.
+	debugMarkers = false
+
+[wingtipTrails]
+	#White condensation streaks from a fast ship's outer edges.
+	enabled = true
+	#Minimum ship speed for wingtip trails (m/s = blocks per second).
+	# Default: 20.0
+	# Range: 1.0 ~ 100.0
+	minSpeed = 20.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[propeller]
+	#Blade-tip vapor ring on fast-spinning propellers.
+	bladeTipVapor = true
+	#Minimum rotation speed (Create RPM) for blade-tip vapor.
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	bladeTipMinRpm = 64.0
+	#Cone of faint air-swirl particles streaming behind the disc.
+	propWash = true
+	#Minimum rotation speed (Create RPM) for prop wash.
+	# Default: 32.0
+	# Range: 1.0 ~ 256.0
+	propWashMinRpm = 32.0
+	#Flip the prop wash direction. Use this if the air stream
+	#visibly blows out of the front of your propellers.
+	invertPropWash = false
+	#Dust ring / water spray under a running propeller near the surface.
+	groundDisturbance = true
+	#How far below a propeller disc the ground/water is disturbed (blocks).
+	# Default: 5.0
+	# Range: 1.0 ~ 12.0
+	groundDisturbanceRange = 5.0
+	#Dense smoke/vapor burst when a propeller starts or stops.
+	startupPuff = true
+	#Assumed blade count for the tip-vapor flicker pattern.
+	#(Blade count isn't exposed by Aeronautics, so the pass timing uses this.)
+	# Default: 3
+	# Range: 1 ~ 8
+	assumedBladeCount = 3
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[engineSmoke]
+	#Light grey smoke from running engine blocks; denser on startup.
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[hoverDust]
+	#Ground dust/debris kicked up under a low-flying or hovering ship.
+	enabled = true
+	#Maximum height above ground for hover dust (blocks).
+	# Default: 4.0
+	# Range: 1.0 ~ 10.0
+	maxHeight = 4.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[waterWake]
+	#V-shaped foam trail behind a hull moving through water.
+	enabled = true
+	#Minimum ship speed for a wake (m/s).
+	# Default: 2.0
+	# Range: 0.5 ~ 40.0
+	minSpeed = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0
+
+[cloudPunch]
+	#Mist burst ring when a ship punches through the cloud layer at speed.
+	enabled = true
+	#Minimum vertical speed to trigger a cloud punch (m/s).
+	# Default: 5.0
+	# Range: 0.5 ~ 60.0
+	minVerticalSpeed = 5.0
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	intensity = 1.0

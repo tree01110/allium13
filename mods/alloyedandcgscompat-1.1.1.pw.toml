@@ -1,0 +1,12 @@
+name = "alloyedandcgscompat-1.1.1"
+filename = "alloyedandcgscompat-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ASBFNk0M/versions/CxEpRl90/alloyedandcgscompat-1.1.1.jar"
+hash-format = "sha512"
+hash = "887a4724340b30c4f8983d046013bdd6403de5b90b85db2a2dcb48f0be05b96b52b4e9831173c11fe14c04a45e873f33630648cf6c1a6332e2111eaa1bebc4fe"
+
+[update.modrinth]
+mod-id = "ASBFNk0M"
+version = "CxEpRl90"

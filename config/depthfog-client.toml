@@ -1,0 +1,41 @@
+#Y level treated as the water surface for depth calculation.
+# Default: 62
+# Range: -64 ~ 320
+seaLevel = 62
+#Depth (in blocks below seaLevel) at which the darkening effect reaches full strength.
+# Default: 60.0
+# Range: 1.0 ~ 512.0
+maxDarkenDepth = 150.0
+# Default: 0.02
+# Range: 0.0 ~ 1.0
+surfaceFogRed = 0.02
+# Default: 0.28
+# Range: 0.0 ~ 1.0
+surfaceFogGreen = 0.28
+# Default: 0.42
+# Range: 0.0 ~ 1.0
+surfaceFogBlue = 0.42
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+deepFogRed = 0.0
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+deepFogGreen = 0.01
+# Default: 0.03
+# Range: 0.0 ~ 1.0
+deepFogBlue = 0.03
+#Fog near/far plane distances (blocks) at the surface and at maxDarkenDepth.
+# Default: 0.0
+# Range: -16.0 ~ 64.0
+surfaceNearPlane = 0.0
+# Default: 96.0
+# Range: 1.0 ~ 512.0
+surfaceFarPlane = 96.0
+# Default: -2.0
+# Range: -16.0 ~ 64.0
+deepNearPlane = -2.0
+# Default: 6.0
+# Range: 1.0 ~ 512.0
+deepFarPlane = 6.0
+#Skip the effect while the player is inside a Sable sub-level (submarine/airship interior).
+skipInsideSableSubLevels = true

@@ -1,0 +1,47 @@
+#Database type for rollback storage (SQLITE, MYSQL, MARIADB). Default: SQLITE
+dbType = "SQLITE"
+#MySQL/MariaDB settings below are only used when dbType=MYSQL or MARIADB; ignored for SQLITE
+#MySQL/MariaDB host for rollback storage
+dbHost = "localhost"
+#MySQL/MariaDB port
+# Default: 3306
+# Range: 1 ~ 65535
+dbPort = 3306
+#MySQL/MariaDB database name
+dbName = "grieflogger"
+#MySQL/MariaDB user
+dbUser = "root"
+#MySQL/MariaDB password
+dbPassword = ""
+#SQLite database file (used when dbType=SQLITE); relative paths are resolved from the server root
+dbFile = "config/grieflogger/grieflogger.sqlite"
+#Number of rollback actions processed per server tick
+# Default: 200
+# Range: 1 ~ 10000
+rollbackBatchSize = 200
+#How many ticks between progress logs during a running rollback
+# Default: 20
+# Range: 1 ~ 1200
+progressTickInterval = 20
+#Enable a small built-in HTTP server with a web UI to trigger rollbacks (default: false)
+webApiEnabled = false
+#Require a non-empty webApiToken for all web UI/API calls; if true and token is empty, the web UI is disabled
+requireApiToken = false
+#Bind address for the web UI / HTTP API (use 127.0.0.1 to keep it local)
+webApiBindAddress = "0.0.0.0"
+#Port for the web UI / HTTP API
+# Default: 8765
+# Range: 1 ~ 65535
+webApiPort = 8765
+#Optional shared secret required for web requests; leave empty to disable auth (not recommended)
+webApiToken = ""
+
+[logUnauthorizedWebAccess]
+	#Log unauthorized web UI/API requests to the database (table glra_web_unauthorized); keeps latest 1000 entries
+	enabled = false
+	#If enabled, store request headers for unauthorized web requests
+	logHeaders = false
+	#If enabled, store request body for unauthorized web requests (may include tokens!)
+	logBody = false
+	#If enabled, store query string for unauthorized web requests
+	logQuery = true

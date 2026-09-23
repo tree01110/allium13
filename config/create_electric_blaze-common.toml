@@ -1,0 +1,16 @@
+#In seconds of current consumption.
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+blaze_burner_energy_capacity = 1.0
+#Added per capacitor in FE per tick.
+# Default: 480
+# Range: > 0
+blaze_burner_energy_rate = 480
+#Multiplied per capacitor. At 75% and 480 FE/t, one capacitor = 480 / 75% = 640 FE/t, two capacitors = (2 * 480) / 75% / 75% = 1706 FE/t
+# Default: 0.949999988079071
+# Range: 0.0 ~ 1.7976931348623157E308
+blaze_burner_energy_efficiency = 0.949999988079071
+#How many capacitors can be applied to a blaze burner.
+# Default: 2
+# Range: > 1
+blaze_burner_max_capacitors = 2

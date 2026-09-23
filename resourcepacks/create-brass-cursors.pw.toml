@@ -1,0 +1,12 @@
+name = "Create Brass Cursors"
+filename = "Create Brass Cursors.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M1lkKD8r/versions/KNYlOcpl/Create%20Brass%20Cursors.zip"
+hash-format = "sha512"
+hash = "0265b3c8e79aafd59f4025acabc41ff538817c0f9daacdd0a64af655f429165ae6e5629f9658c681e2e5803cbd05f9c8ffb6521c3062929c2dbdb80786787ff9"
+
+[update.modrinth]
+mod-id = "M1lkKD8r"
+version = "KNYlOcpl"

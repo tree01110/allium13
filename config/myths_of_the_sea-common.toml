@@ -1,0 +1,54 @@
+#Mob Settings
+[mob]
+
+	[mob.bake_kujira]
+		#Modify probability spawn depending on climate
+		# Default: 35
+		# Range: > 0
+		bakeKujiraNormalSpawnProbability = 35
+		# Default: 65
+		# Range: > 0
+		bakeKujiraNightSpawnProbability = 65
+		# Default: 85
+		# Range: > 0
+		bakeKujiraRainSpawnProbability = 85
+
+	[mob.leviathan]
+		#Modify probability spawn depending on climate
+		# Default: 7
+		# Range: > 0
+		leviathanNormalSpawnProbability = 7
+		# Default: 15
+		# Range: > 0
+		leviathanNightSpawnProbability = 15
+		# Default: 35
+		# Range: > 0
+		leviathanRainSpawnProbability = 35
+		# Default: 50
+		# Range: > 0
+		leviathanThunderSpawnProbability = 50
+		#Modify how close to each other can leviathans spawn
+		# Default: 120
+		# Range: > 0
+		leviathanNormalSpawnSeparationRadius = 120
+		# Default: 120
+		# Range: > 0
+		leviathanNightSpawnSeparationRadius = 120
+		# Default: 80
+		# Range: > 0
+		leviathanRainSpawnSeparationRadius = 80
+		# Default: 60
+		# Range: > 0
+		leviathanThunderSpawnSeparationRadius = 60
+
+	[mob.kraken]
+		#Modify probability spawn depending on climate
+		# Default: 3
+		# Range: > 0
+		krakenNormalSpawnProbability = 3
+		# Default: 10
+		# Range: > 0
+		krakenRainSpawnProbability = 10
+		# Default: 15
+		# Range: > 0
+		krakenThunderSpawnProbability = 15

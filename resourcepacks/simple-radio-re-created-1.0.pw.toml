@@ -1,0 +1,12 @@
+name = "Simple Radio Re-Created 1.0"
+filename = "Simple Radio Re-Created 1.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LLr1ScTK/versions/bCmTuXND/Simple%20Radio%20Re-Created%201.0.zip"
+hash-format = "sha512"
+hash = "656392ead6e2cabaf96b5a32593198ee1625b603aaf7e4f104e97d8a6e4a89b03bee8f5a065ca065afc3cec024e6a860a2cd55c6cba2b5837decb62b4ce85a24"
+
+[update.modrinth]
+mod-id = "LLr1ScTK"
+version = "bCmTuXND"

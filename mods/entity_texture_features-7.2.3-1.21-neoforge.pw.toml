@@ -1,0 +1,12 @@
+name = "entity_texture_features-7.2.3-1.21-neoforge"
+filename = "entity_texture_features-7.2.3-1.21-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/Y1KtOkZf/entity_texture_features-7.2.3-1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "f7866cb38159131ce8555a058f966b230ba53dc538c5240e37949f8a7ce9aadca65d069a97b14f60481d671f4b67504c4a7092175267738c8d51a0d1d57e19ab"
+
+[update.modrinth]
+mod-id = "BVzZfTc1"
+version = "Y1KtOkZf"

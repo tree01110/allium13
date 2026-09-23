@@ -1,0 +1,12 @@
+name = "entity_model_features-3.3.7-1.21-neoforge"
+filename = "entity_model_features-3.3.7-1.21-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4I1XuqiY/versions/5AMSii6O/entity_model_features-3.3.7-1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "c7aa81383773090aa9852702e374a36d057e1e9989c3dc35775a12907301851c9eb6fe1f1f996197b1d373a7444c7ed6b2dfb9848fe5e4f0501498cc57c8dc5e"
+
+[update.modrinth]
+mod-id = "4I1XuqiY"
+version = "5AMSii6O"

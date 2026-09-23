@@ -1,0 +1,12 @@
+name = "Icons - Enchantments v.1.2"
+filename = "Icons - Enchantments v.1.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3cROwIvM/versions/MPeT6jtv/Icons%20-%20Enchantments%20v.1.2.zip"
+hash-format = "sha512"
+hash = "f334d1a1978d777fdcc5644cb262e16a4aab94dfd967f9b828ffda3605beeb7668b8e51a67e242f0de9f43eec724ad6f5098b5dd2e2b6b6191f2d1ee753043de"
+
+[update.modrinth]
+mod-id = "3cROwIvM"
+version = "MPeT6jtv"

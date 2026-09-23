@@ -1,0 +1,12 @@
+name = "discord_chat_mod-neoforge-1.21.1-2.8.0"
+filename = "discord_chat_mod-neoforge-1.21.1-2.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yIWYj2mo/versions/Vex9GS2V/discord_chat_mod-neoforge-1.21.1-2.8.0.jar"
+hash-format = "sha512"
+hash = "221130f959a8f78d406006a3d38dd1a23075c9bd05c7e60025aad8b48775cb7bf3cc74b577bba1d65c078c7a8cd6ee0456f31604dd9ffc3acbbc698e448ecb6a"
+
+[update.modrinth]
+mod-id = "yIWYj2mo"
+version = "Vex9GS2V"

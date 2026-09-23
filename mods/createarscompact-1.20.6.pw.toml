@@ -1,0 +1,12 @@
+name = "createarscompact-1.20.6"
+filename = "createarscompact-1.20.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/edZTqBgP/versions/unM4rEAm/createarscompact-1.20.6.jar"
+hash-format = "sha512"
+hash = "59b98d40d780b653197801efba13da946be19562bf5bab9ec343332e28dcb1105ccbf5ef6d03dee02ede91faff4b7dbb289949caf6413fee45e564e3a354326c"
+
+[update.modrinth]
+mod-id = "edZTqBgP"
+version = "unM4rEAm"

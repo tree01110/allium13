@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Devoid_",
+      "uniqueId": "f9a86e27-fb1e-47cc-a44e-ad743028aa20"
+    },
+    "time": 1787693053610,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QLX4zTMOy9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Devoid_",
+      "uniqueId": "f9a86e27-fb1e-47cc-a44e-ad743028aa20"
+    },
+    "time": 1787693014186,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WHVYsFzpUc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Devoid_",
+      "uniqueId": "f9a86e27-fb1e-47cc-a44e-ad743028aa20"
+    },
+    "time": 1787692838167,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZPjNSa3f5n"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Devoid_",
+      "uniqueId": "f9a86e27-fb1e-47cc-a44e-ad743028aa20"
+    },
+    "time": 1787692192888,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ihTpDhTbBj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Devoid_",
+      "uniqueId": "f9a86e27-fb1e-47cc-a44e-ad743028aa20"
+    },
+    "time": 1787691869981,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nqkDaBtvda"
+    }
+  }
+]

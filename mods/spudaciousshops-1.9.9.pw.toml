@@ -1,0 +1,12 @@
+name = "spudaciousshops-1.9.9"
+filename = "spudaciousshops-1.9.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5L4ZQ2Jk/versions/ilCCpqQi/spudaciousshops-1.9.9.jar"
+hash-format = "sha512"
+hash = "beb1a1380bd32bb516ed27257a366395c8d1ac2c231abb4543ce6aa12b898b42d10da593b77ca96734b185bc4292475d3a447e62fd6be7f86aa8f76af060c239"
+
+[update.modrinth]
+mod-id = "5L4ZQ2Jk"
+version = "ilCCpqQi"

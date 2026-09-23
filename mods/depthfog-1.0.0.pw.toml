@@ -1,0 +1,12 @@
+name = "depthfog-1.0.0"
+filename = "depthfog-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/j23yCvKF/versions/T9kiVlEf/depthfog-1.0.0.jar"
+hash-format = "sha512"
+hash = "0b9a7200aee124220decb9813729f704ccdc0c1d583ab368150068afdd128ac16ba45071e9fc1db82f40139e479a89fb645442a3a198237bc891d35ba9c74397"
+
+[update.modrinth]
+mod-id = "j23yCvKF"
+version = "T9kiVlEf"
