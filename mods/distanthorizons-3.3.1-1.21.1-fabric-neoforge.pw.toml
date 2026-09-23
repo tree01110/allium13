@@ -2,6 +2,11 @@ name = "DistantHorizons-3.3.1-1.21.1-fabric-neoforge"
 filename = "DistantHorizons-3.3.1-1.21.1-fabric-neoforge.jar"
 side = "both"
 
+[option]
+optional = true
+default = true
+description = "Distant terrain rendering. Leave enabled for the full Allium experience, or uncheck it if you do not want Distant Horizons installed."
+
 [download]
 url = "https://cdn.modrinth.com/data/uCdwusMi/versions/IcOcoekl/DistantHorizons-3.3.1-1.21.1-fabric-neoforge.jar"
 hash-format = "sha512"
