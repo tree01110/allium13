@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/CoroUtil/General.toml"
+hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "bc172aa9d0ba81e24b9937b44f78669eac6db60105071d8ab05596341b823115"
+
+[[files]]
+file = "config/Dusty Decorations Config.toml"
+hash = "c849ab504f40ce531f94be1d712cee2e997d5b48dab085d39fa5f75b32af2203"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
 file = "config/ae2-client.toml"
 hash = "8a2b57f6c35343b505c3601a8e06d01759f9ea803ce17a833bf1a338e50b1f41"
 
@@ -1241,10 +1257,6 @@ file = "config/copycats-server.toml"
 hash = "3a2e328d298b0ef379673beffa566eda2d92b4f1d0e00425573b59f0ea66e646"
 
 [[files]]
-file = "config/CoroUtil/General.toml"
-hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
-
-[[files]]
 file = "config/corpse-server.toml"
 hash = "806dc2002f95b1bcd16dec843051abc513576a1986ea1931d8c2cc82aef201c7"
 
@@ -1529,10 +1541,6 @@ file = "config/discord_chat_mod-common.toml"
 hash = "f8e39a6b395aa5ebfe45651dce233573a16de5830c4d1c22dceba28dcece85b8"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "bc172aa9d0ba81e24b9937b44f78669eac6db60105071d8ab05596341b823115"
-
-[[files]]
 file = "config/dndecor-server.toml"
 hash = "c1048c2d0455dbc9510aee18da9ad728cf21ca7307aaea4c3a5490ac90f3bb2d"
 
@@ -1563,10 +1571,6 @@ hash = "3bdc58f943d72ff54aa92e0efd1f50613f93d4cd54798e05ef0793c4c3f61dab"
 [[files]]
 file = "config/drivebywiretypewriter-client.toml"
 hash = "86b2c763cf31b12599805a47435a99876fe8a54c99f5ff22553d323e154f099e"
-
-[[files]]
-file = "config/Dusty Decorations Config.toml"
-hash = "c849ab504f40ce531f94be1d712cee2e997d5b48dab085d39fa5f75b32af2203"
 
 [[files]]
 file = "config/easyanvils-client.toml"
@@ -2015,10 +2019,6 @@ hash = "a6d5e783dc1469e925d4cf62f17a94ee2dff4ff025d9ed9e61b129581019cdf3"
 [[files]]
 file = "config/moreculling.toml"
 hash = "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5"
-
-[[files]]
-file = "config/MouseTweaks.cfg"
-hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
 file = "config/mtsconfig.json"
@@ -3273,6 +3273,10 @@ file = "defaultconfigs/ftbqoptimizer.snbt"
 hash = "44bfb991779a3327302e943a0ac918fe0d0484540fd6e3b918087326090e7178"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -3297,10 +3301,6 @@ file = "kubejs/config/web_server.json"
 hash = "f286d05c9b953089f67833873ccd9a397eff20c05c61a6333343ccf21b9aae3e"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
 file = "kubejs/server_scripts/allium_deep_sea_minefields.js"
 hash = "b98f9eb4b194cce968ab15d990530a68a0802f7ab789dab582c62f5d090f8904"
 
@@ -3319,6 +3319,18 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 [[files]]
 file = "mods/AE2-Things-1.4.2-beta.jar"
 hash = "9725dd363cc874601737b417ddfe675e4a5ae4a6428bdeb67ac408f775eb4241"
+
+[[files]]
+file = "mods/Chimes-v2.1.1-1.21.1-NeoForge.jar"
+hash = "83b83b60bb40f34b2422d785ca40e287eacb31a1fc3a4f9564ee9e7c3dcc283b"
+
+[[files]]
+file = "mods/L_Ender's Cataclysm 1.21.1-3.33.jar"
+hash = "23921a268acc8b695291f12e89c5e4c261ee5f59a3b6d763793461efb3e7e1d6"
+
+[[files]]
+file = "mods/NeoAuth-1.21.1-1.0.0.jar"
+hash = "2592ace136b46ada25f8a9ffc4b268636aa711f44b8fddf6b2f78d680116c124"
 
 [[files]]
 file = "mods/ae2jeiintegration-1.2.1.jar"
@@ -3481,10 +3493,6 @@ metafile = true
 file = "mods/chat_heads-0.15.7-neoforge-1.21.pw.toml"
 hash = "34284e8b765071df84daaac5b5ce9fe893d4ababd1a4d03fcc7f62e317c5e251"
 metafile = true
-
-[[files]]
-file = "mods/Chimes-v2.1.1-1.21.1-NeoForge.jar"
-hash = "83b83b60bb40f34b2422d785ca40e287eacb31a1fc3a4f9564ee9e7c3dcc283b"
 
 [[files]]
 file = "mods/chunkactivitytracker-neoforge-1.0.1-1.21.1.pw.toml"
@@ -3781,7 +3789,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons-3.3.1-1.21.1-fabric-neoforge.pw.toml"
-hash = "563e0c0c5d6c06f81c37f2c1868a89b611ab23999bc2465b0d2eb02b11b75352"
+hash = "cab04f58d7a896a98778842cbd0664150b58aa9495a14f2b6c70aba5b31f0f95"
 metafile = true
 
 [[files]]
@@ -4088,10 +4096,6 @@ hash = "d8c77f6da237a8dacb5071469f84560d6a2fe15cc8bee953bb7f3a25ba7addb1"
 metafile = true
 
 [[files]]
-file = "mods/L_Ender's Cataclysm 1.21.1-3.33.jar"
-hash = "23921a268acc8b695291f12e89c5e4c261ee5f59a3b6d763793461efb3e7e1d6"
-
-[[files]]
 file = "mods/lexiconfig-neoforge-1.4.21-novel.pw.toml"
 hash = "6ce96076266e7909345426769646fb07433dbffffa10f3efe209068216c73dc0"
 metafile = true
@@ -4170,10 +4174,6 @@ metafile = true
 file = "mods/naturescompass-1.21.1-3.4.0-neoforge.pw.toml"
 hash = "f86cfcdbb7fea4d308601034f0ac4a3f18149fd83d54c43fc89a1b9b92ec7a66"
 metafile = true
-
-[[files]]
-file = "mods/NeoAuth-1.21.1-1.0.0.jar"
-hash = "2592ace136b46ada25f8a9ffc4b268636aa711f44b8fddf6b2f78d680116c124"
 
 [[files]]
 file = "mods/neruina-3.3.3-1.21.1-neoforge.pw.toml"
@@ -4575,6 +4575,14 @@ file = "options.txt"
 hash = "a34dd1a3bcad90567921f9229eaef1366ee251f338b2034ca4cbf535f21262ab"
 
 [[files]]
+file = "resourcepacks/ReApplied-MegaCells-Final.zip"
+hash = "a68efc273705852439063c5993f32bb2bec0f09b503e4d15fd0926c66d49513c"
+
+[[files]]
+file = "resourcepacks/Unify-Create-Zinc-Brass-Vibrant-Uranium.zip"
+hash = "11a5615470deb400d93cb18b5bd87431d0d5a67f022a7b32003fdedc5392f069"
+
+[[files]]
 file = "resourcepacks/better-create-glass-pipes.pw.toml"
 hash = "c5faaf4a365e862402d93885b9e74fd3f9045d2e5793e5b30b29a5cd2c961d49"
 metafile = true
@@ -4605,10 +4613,6 @@ hash = "6bd6e67f357362d2637703694f71eaef7e40d1737a965507c7e91292ededeca0"
 metafile = true
 
 [[files]]
-file = "resourcepacks/ReApplied-MegaCells-Final.zip"
-hash = "a68efc273705852439063c5993f32bb2bec0f09b503e4d15fd0926c66d49513c"
-
-[[files]]
 file = "resourcepacks/reapplied.pw.toml"
 hash = "c05c8051a09aa053ba5c28634e3375be11d23edff9eaae52be016946643c5129"
 metafile = true
@@ -4619,12 +4623,12 @@ hash = "5b9e39036ff2d535b6d6555ad775d75a7b722dccade4793ebd939f4cf2f3dd6a"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Unify-Create-Zinc-Brass-Vibrant-Uranium.zip"
-hash = "11a5615470deb400d93cb18b5bd87431d0d5a67f022a7b32003fdedc5392f069"
-
-[[files]]
 file = "servers.dat"
 hash = "435f14cbaa0df253171fc1091c34077c44cc7a4b348e1e6a01d3dcb5df0a210a"
+
+[[files]]
+file = "shaderpacks/Solas Shader V3.7.zip.txt"
+hash = "4ef16e0bb98d7e1f3ea693de10ad0fa6640f99a805bc2a3c7a0d70bad3bf930b"
 
 [[files]]
 file = "shaderpacks/complementaryreimagined_r5.8.1.pw.toml"
@@ -4649,10 +4653,6 @@ hash = "d50aac51cca2d7124ae87d9f74d916eec9490073c21e9ab2beef8c18687d6c49"
 file = "shaderpacks/reverie-beta-v0.9.pw.toml"
 hash = "aff0761f7ed12914b1a6e3d1057c850e5e1c3a2850af300f9f2c44c966e374e8"
 metafile = true
-
-[[files]]
-file = "shaderpacks/Solas Shader V3.7.zip.txt"
-hash = "4ef16e0bb98d7e1f3ea693de10ad0fa6640f99a805bc2a3c7a0d70bad3bf930b"
 
 [[files]]
 file = "shaderpacks/solas-shader-v3.7.pw.toml"
