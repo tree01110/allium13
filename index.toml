@@ -3440,9 +3440,8 @@ hash = "365cd9faa553ef6cfcef2850ee886516fe4f2fbc532f272c5945c7fcad193eff"
 metafile = true
 
 [[files]]
-file = "mods/benssharks-1.2.6-neoforge-1.21.1.pw.toml"
-hash = "6436ee37fe0efa8cfa28d7854dcf798edcc1c02f8908f15ecd87454e11eed821"
-metafile = true
+file = "mods/benssharks-1.2.6-neoforge-1.21.1-axodile-fix.jar"
+hash = "99c9eb557128e326ec865c61e30577368addd371c03ebe9db2a639d663a098f2"
 
 [[files]]
 file = "mods/better-advanced-tooltips-2101.1.0-build.5.pw.toml"
