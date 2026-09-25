@@ -4401,17 +4401,8 @@ hash = "f4b3340cb14dc5ef4e1fc333c0cff2540f707c0b83d46d615b16d9881e124b06"
 metafile = true
 
 [[files]]
-file = "mods/snassets_particles-1.0.1 (1).jar"
-hash = "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca"
-
-[[files]]
-file = "mods/snassets_particles-1.0.1.jar"
-hash = "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca"
-
-[[files]]
-file = "mods/snassets_particles-1.0.1.pw.toml"
-hash = "6c2463dbd896b1d638ee99ef0b61b7adbb88355f82350c7bfc9635a7f5a57dfa"
-metafile = true
+file = "mods/snassets-1.0.2 (2).jar"
+hash = "63b86ba4b0f837202a867b14b9b1b2b77448fb79cfa531af7f2005a574c36bc7"
 
 [[files]]
 file = "mods/sodium-neoforge-0.8.13-mc1.21.1.pw.toml"
