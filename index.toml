@@ -3357,6 +3357,10 @@ hash = "55c18b12702fbab08be05affca3d0671e1f717da481794b7068a4d881f472a58"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics_windsound-1.0.1.jar"
+hash = "f55aa24b55e9922b25085ba6d0041173077123ecaa5ebf83e16dd4a23011eabd"
+
+[[files]]
 file = "mods/aeroworks-1.5.0.pw.toml"
 hash = "348789069c1b47ea9bfdea5495514dff9291d66d7c588b2f4fcf15205b45ec34"
 metafile = true
@@ -4331,6 +4335,10 @@ metafile = true
 file = "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.pw.toml"
 hash = "f7321eece4540a25e9e91fa7261b13ee85dbb845d1a5a27cf4471b8c755ea65d"
 metafile = true
+
+[[files]]
+file = "mods/rolling-tones-0.2.2.jar"
+hash = "b5cd6f7d968a784910bf08eb7970948a01abc44fa5c69f898e4b7ef2b34708b2"
 
 [[files]]
 file = "mods/sable-neoforge-1.21.1-2.0.5.pw.toml"
