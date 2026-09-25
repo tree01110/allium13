@@ -4401,6 +4401,10 @@ hash = "f4b3340cb14dc5ef4e1fc333c0cff2540f707c0b83d46d615b16d9881e124b06"
 metafile = true
 
 [[files]]
+file = "mods/snassets_particles-1.0.1 (1).jar"
+hash = "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca"
+
+[[files]]
 file = "mods/snassets_particles-1.0.1.jar"
 hash = "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca"
 
