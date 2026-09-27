@@ -4584,6 +4584,10 @@ file = "resourcepacks/ReApplied-MegaCells-Final.zip"
 hash = "a68efc273705852439063c5993f32bb2bec0f09b503e4d15fd0926c66d49513c"
 
 [[files]]
+file = "resourcepacks/ReApplied.zip"
+hash = "50f0f97c8dc49028b350a340060561a8d4aed47c8fab5552d8ff3c03e3769768"
+
+[[files]]
 file = "resourcepacks/Unify-Create-Zinc-Brass-Vibrant-Uranium.zip"
 hash = "11a5615470deb400d93cb18b5bd87431d0d5a67f022a7b32003fdedc5392f069"
 
@@ -4615,11 +4619,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/icons---enchantments-v.1.2.pw.toml"
 hash = "6bd6e67f357362d2637703694f71eaef7e40d1737a965507c7e91292ededeca0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/reapplied.pw.toml"
-hash = "c05c8051a09aa053ba5c28634e3375be11d23edff9eaae52be016946643c5129"
 metafile = true
 
 [[files]]
