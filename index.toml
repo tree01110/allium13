@@ -2450,7 +2450,7 @@ hash = "d4b5ebd8c043a9fd157949b999b3a664bd97c2e9e2417bd86a43aa84c21ea912"
 
 [[files]]
 file = "config/supplementaries-client.toml"
-hash = "d65195b81e3b73874cfb3ea7b05eca99f3204f01a3a27c44153c82806fd7745c"
+hash = "cf525a35fe62c64c321b6b3bb9b9915d89c31411b203920f74598818001cc3f2"
 
 [[files]]
 file = "config/supplementaries-common-1.toml.bak"
@@ -4316,9 +4316,8 @@ hash = "170a8674d20bef65ef0c8102812426faf3471ca386dde5a979b694c04ea930f7"
 metafile = true
 
 [[files]]
-file = "mods/remi-neoforge-1.21.1-4.7.2.pw.toml"
-hash = "a8d583f61fd73690687f4abc3d9303790d4d3080407a09a6c1b770c5fbb96964"
-metafile = true
+file = "mods/remi-neoforge-1.21.1-4.7.9.jar"
+hash = "e1e50350750dd824cbb179d458d24fffad076ff3d7957099810a566bcfca0efe"
 
 [[files]]
 file = "mods/resourcefullib-neoforge-1.21-3.0.12.pw.toml"
@@ -4373,6 +4372,10 @@ metafile = true
 file = "mods/searchables-neoforge-1.21.1-1.0.2.pw.toml"
 hash = "ec8669a1295d24178812b7dec90ef9a06bab73f348cdb56457202ae3197d3eae"
 metafile = true
+
+[[files]]
+file = "mods/shutupgl-1.0.0.jar"
+hash = "f67dcbff29d0d14ba56ca8cd7c95fe8adfa98aec2e8baf5fa3fa6cfe4f6e7e2a"
 
 [[files]]
 file = "mods/simpleradio-neoforge-1.21.1-4.5.7.9.pw.toml"

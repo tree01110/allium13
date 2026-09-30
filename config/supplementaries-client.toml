@@ -172,7 +172,7 @@
 	#Wearing mob heads will apply post processing
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
-	send_chat_on_death = true
+	send_chat_on_death = false
 	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
 	enderman_and_spider_head_texture_pack_support = true
 	#Show a slime overlay when you hit an entity with a slimeball
